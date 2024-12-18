@@ -1,6 +1,7 @@
 import css from './App.module.css';
 import Sidebar from './components/Sidebar';
 import NavBarSimple from './components/NavBarSimple';
+import NavBarForm from './components/NavBarForm';
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
         <Sidebar />
       </div>
       <div>
-        <NavBarSimple />
+        {/* <NavBarSimple /> */}
+        <NavBarForm />
       </div>
     </div>
   );
